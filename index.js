@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
-const gitHubAPI = require('github-api');
+// const gitHubAPI = require('github-api');
 const generateMarkdown = require("./generateMarkdown");
 
 const questions = inquirer
@@ -68,24 +68,26 @@ function writeToFile(fileName, data) {
     let userData = generateMarkdown(data)
 
     // fs.writeFile(file, data[, options], callback)
-    fs.writeFile("README.md", userData, function (error, data) {
-        console.log("README done");
-
+    fs.writeFile("README.md", userData, function (err) {
+       
+       if (err) {
+          return console.log(err);
+       }
+       console.log("Success!");
     })
 };
 
-function init() {
-    let queryGithubURL = "https://api.github.com/users/" + questions.github;
+function init(req) {
 
+    let queryGithubURL = "https://api.github.com/users/" + req.github;
+   
     axios.get(queryGithubURL).then(
         function (gitProfile) {
-            let data = githubProfile.data;
+            let data = gitProfile.data;
             // Add github profile picture
             let profilePic = data.avatar.url;
             let profileURL = data.url;
 
-            // userChoices.githubPic = data.avatar_url;
-            // userChoices.url = data.html_url;
         })
 };
 
