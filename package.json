@@ -1,0 +1,25 @@
+{
+  "name": "traffee",
+  "version": "1.0.0",
+  "description": "github readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/las348/traffee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/las348/traffee/issues"
+  },
+  "homepage": "https://github.com/las348/traffee#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "github-api": "^3.3.0",
+    "inquirer": "^7.1.0"
+  }
+}
