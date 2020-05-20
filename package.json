@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/las348/traffee#readme",
   "dependencies": {
-    "axios": "^0.19.2",
     "fs": "0.0.1-security",
-    "github-api": "^3.3.0",
     "inquirer": "^7.1.0"
   }
 }

@@ -1,36 +1,34 @@
-function generateMarkdown(data) {
+function generateMarkdown(questions) {
 
-  let readMe = 
-  `# ${data.title}`
- 
-  //badge
-  `![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)`
-  `![GitHub top language](https://img.shields.io/github/languages/top/badges/traffee?style=plastic)`
+  let readMe = `# ${questions.title}
 
-  `![Profile Pic](${profilePic})`
+  ![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)
+  ![GitHub top language](https://img.shields.io/github/languages/top/badges/traffee?style=plastic)
+
+  ## ${questions.name} ${questions.github} 
+  ## Description:
+  ${questions.description}
+
+  ## Technologies:
+  ${questions.technologies}
+  ##  Installation:
+  ${questions.installation}
+
+  ## License: 
+  ${questions.license}
+  ## Usage:
+  ${questions.usage}
   
-  `## ${data.name}:wave: ${data.github}` 
-  `## Description:`
-  `${data.description}`
-
-  `## Technologies:`
-  `${data.technologies}`
-  `##  Installation:`
-  `${data.installation}`
-
-  `## License:` 
-  `${data.license}`
-  `## Usage:`
-  `${data.usage}`
-  
-  `## Contributors:`
-  `${data.contributing}`
-  `## Tests:`
-  `${data.tests}`
-  `## Questions:`
-  `${data.questions}`
+  ## Contributors:
+  ${questions.contributing}
+  ## Tests:
+  ${questions.tests}
+  ## Questions:
+  ${questions.questions}`
 
    return readMe;
 }
 
 module.exports = generateMarkdown;
+
+
