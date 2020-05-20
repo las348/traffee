@@ -1,25 +1,24 @@
-# d
+# Traffee
 
   ![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)
-  ![GitHub top language](https://img.shields.io/github/languages/top/badges/traffee?style=plastic)
 
-  ## d :grinning: d 
+  ## Laureni :wave: las348 
   ## Description:
-  d
+  The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
 
   ## Technologies:
-  d
+  Node
   ##  Installation:
-  d
+  The application will be invoked with the following command: node index.js
 
   ## License: 
-  d
+  None
   ## Usage:
-  d
+  Easily create readme for future projects
   
   ## Contributors:
-  d
+  NA
   ## Tests:
-  d
+  NA
   ## Questions:
-  d
+  NA
