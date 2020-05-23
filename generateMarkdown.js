@@ -11,20 +11,24 @@ function generateMarkdown(questions) {
 
   ## Technologies:
   ${questions.technologies}
+
   ##  Installation:
   ${questions.installation}
 
-  ## License: 
-  ${questions.license}
   ## Usage:
   ${questions.usage}
   
   ## Contributors:
   ${questions.contributing}
+
   ## Tests:
   ${questions.tests}
+  
   ## Questions:
-  ${questions.questions}`
+  ${questions.questions}
+
+  ## License: 
+  ${questions.license}`
 
    return readMe;
 }

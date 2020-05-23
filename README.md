@@ -1,24 +1,29 @@
-# Traffee
+# ReadMe Generator
 
   ![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)
+  ![GitHub top language](https://img.shields.io/github/languages/top/badges/traffee?style=plastic)
 
   ## Laureni :wave: las348 
   ## Description:
-  The user will be prompted for their GitHub username and other information pertaining to the project the README is for.
+  Command-line application that dynamically generates a README.md from a user's input. 
 
   ## Technologies:
-  Node
-  ##  Installation:
-  The application will be invoked with the following command: node index.js
+  Node, JavaScript
 
-  ## License: 
-  None
+  ##  Installation:
+  Install inquirer and fs using npm
+
   ## Usage:
-  Easily create readme for future projects
+  Easily create ReadMe for future projects
   
   ## Contributors:
-  NA
+  Contributions are always welcome! Please contact author first.
+
   ## Tests:
-  NA
+  Run application with the following command: node index.js
+  
   ## Questions:
-  NA
+  Next step might be to create a new ReadMe file instead of updating the text.
+
+  ## License: 
+  Copyright (c) 2020 Laureni Wilkinson-Sanchez
