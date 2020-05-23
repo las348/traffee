@@ -4,6 +4,15 @@ function generateMarkdown(questions) {
 
   ![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)
 
+  # Table of Contents
+ 1. [Description](#Description)
+ 2. [Installation](#Installation)
+ 3. [Usage](#Usage)
+ 4. [License](#License)
+ 5. [Contributing](#Contributing)
+ 6. [Tests](#Tests)
+ 7. [Questions](#)Questions
+ 
   ## ${questions.name} :wave: ${questions.github} 
   ## Description:
   ${questions.description}
