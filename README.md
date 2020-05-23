@@ -1,11 +1,19 @@
 # ReadMe Generator
 
   ![AUR last modified](https://img.shields.io/aur/last-modified/google-Chrome?color=teal&style=plastic)
-  ![GitHub top language](https://img.shields.io/github/languages/top/badges/traffee?style=plastic)
 
+  # Table of Contents
+ 1. [Description](#Description)
+ 2. [Installation](#Installation)
+ 3. [Usage](#Usage)
+ 4. [License](#License)
+ 5. [Contributing](#Contributing)
+ 6. [Tests](#Tests)
+ 7. [Questions](#)Questions
+ 
   ## Laureni :wave: las348 
   ## Description:
-  Command-line application that dynamically generates a README.md from a user's input. 
+  Command-line application that dynamically generates a README.md from a user's input.
 
   ## Technologies:
   Node, JavaScript
@@ -21,7 +29,7 @@
 
   ## Tests:
   Run application with the following command: node index.js
-  
+
   ## Questions:
   Next step might be to create a new ReadMe file instead of updating the text.
 
